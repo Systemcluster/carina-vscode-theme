@@ -1,11 +1,11 @@
 {
   "icon": "assets/logo.png",
-  "name": "iv colorful",
-  "displayName": "iv colorful",
+  "name": "Carina Theme",
+  "displayName": "Carina Theme",
   "publisher": "Systemcluster",
   "license": "MIT",
-  "description": "a dark vibrant colorscheme",
-  "version": "0.0.3",
+  "description": "Dark and vibrant colorscheme.",
+  "version": "0.0.4",
   "type": "module",
   "engines": {
     "vscode": "^1.70.0"
@@ -28,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "iv : colorful",
+        "label": "Carina Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/iv-colorful.json"
+        "path": "./themes/carina-dark.json"
       }
     ]
   }
