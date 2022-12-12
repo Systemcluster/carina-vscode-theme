@@ -1,23 +1,12 @@
 {
   "icon": "assets/logo.png",
-  "name": "iv",
-  "displayName": "iv",
-  "publisher": "riyuzenn",
+  "name": "iv colorful",
+  "displayName": "iv colorful",
+  "publisher": "Systemcluster",
   "license": "MIT",
   "description": "a dark vibrant colorscheme",
   "version": "0.0.3",
-  "repository": { 
-    "url": "https://github.com/riyuzenn/vscode"
-  },
-  "funding": "https://github.com/riyuzenn/vscode?sponsor=1",
-	"sponsor": {
-		"url": "https://github.com/riyuzenn/vscode?sponsor=1"
-	},
-	"author": {
-		"name": "zenn",
-		"email": "riyuzenn@gmail.com"
-	},
-	"type": "module",
+  "type": "module",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -25,13 +14,13 @@
     "Themes"
   ],
   "keywords": [
-		"minimal",
-		"aesthetic",
-		"pastel",
-		"dark",
-		"soft",
+    "minimal",
+    "aesthetic",
+    "pastel",
+    "dark",
+    "soft",
     "clean"
-	],
+  ],
   "galleryBanner": {
     "color": "#121212",
     "theme": "dark"
@@ -39,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "iv : spade",
+        "label": "iv : colorful",
         "uiTheme": "vs-dark",
-        "path": "./themes/iv-spade.json"
+        "path": "./themes/iv-colorful.json"
       }
     ]
   }
