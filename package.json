@@ -1,0 +1,40 @@
+{
+  "name": "theme-carinae",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "publisher": "Systemcluster",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Systemcluster/carina2.git"
+  },
+  "type": "module",
+  "icon": "assets/logo.png",
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Carinae Light",
+        "label": "%carinaLightColorThemeLabel%",
+        "uiTheme": "vs",
+        "path": "./themes/carina_light.json"
+      },
+      {
+        "id": "Carinae Dark",
+        "label": "%carinaDarkColorThemeLabel%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carina_dark.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#121215",
+    "theme": "dark"
+  }
+}
