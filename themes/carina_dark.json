@@ -165,6 +165,9 @@
         "variable": {
             "foreground": "#ffffffa8"
         },
+        "variable.callable": {
+            "foreground": "#6b9ee9"
+        },
         "parameter": {
             "foreground": "#ffffffa8"
         },
