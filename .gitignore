@@ -1,5 +1,10 @@
 *
 !.gitignore
+!.gitattributes
+!.gitmodules
+!.vscode/**/*
+!README.md
+!LICENSE
 !package.json
 !package.*.json
 !themes/**/*
