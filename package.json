@@ -4,11 +4,8 @@
   "description": "%description%",
   "publisher": "Systemcluster",
   "version": "0.1.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Systemcluster/carina2.git"
-  },
+  "license": "BSD-2-Clause",
+  "repository": "https://github.com/Systemcluster/carina-vscode-theme",
   "type": "module",
   "icon": "assets/logo.png",
   "categories": [
@@ -33,11 +30,22 @@
       }
     ]
   },
+  "files": [
+    "assets/*",
+    "themes/*",
+    "package.json",
+    "package.nls.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "vsce package"
+  },
   "galleryBanner": {
     "color": "#121215",
     "theme": "dark"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.1"
+    "@vscode/vsce": "^4.0.0"
   }
 }
